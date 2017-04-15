@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7EC3FC1CED3D5E00BC3668 /* DynamicAnimatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC3FB1CED3D5E00BC3668 /* DynamicAnimatorController.m */; };
+		EC7EC4001CED470E00BC3668 /* DynamicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC3FF1CED470E00BC3668 /* DynamicListViewController.m */; };
+		EC7EC4031CED4A4E00BC3668 /* GravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC4021CED4A4E00BC3668 /* GravityViewController.m */; };
+		EC7EC40B1CEDB0A000BC3668 /* GravittyView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC40A1CEDB0A000BC3668 /* GravittyView.m */; };
+		ECB70E021CEC250700E99615 /* NewtonsCradleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB70E011CEC250700E99615 /* NewtonsCradleViewController.m */; };
+		ECB70E081CEC35FD00E99615 /* CoreMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB70E071CEC35FD00E99615 /* CoreMotionViewController.m */; };
+		ECC021731CEBF35C00340148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021721CEBF35C00340148 /* main.m */; };
+		ECC021761CEBF35C00340148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021751CEBF35C00340148 /* AppDelegate.m */; };
+		ECC0217C1CEBF35C00340148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC0217A1CEBF35C00340148 /* Main.storyboard */; };
+		ECC0217E1CEBF35C00340148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC0217D1CEBF35C00340148 /* Assets.xcassets */; };
+		ECC021811CEBF35C00340148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC0217F1CEBF35C00340148 /* LaunchScreen.storyboard */; };
+		ECC0218C1CEBF35C00340148 /* UIDynamicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0218B1CEBF35C00340148 /* UIDynamicTests.m */; };
+		ECC021971CEBF35C00340148 /* UIDynamicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021961CEBF35C00340148 /* UIDynamicUITests.m */; };
+		ECC021AC1CEBF3DA00340148 /* DefaultBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021A51CEBF3DA00340148 /* DefaultBehavior.m */; };
+		ECC021AD1CEBF3DA00340148 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021A71CEBF3DA00340148 /* DraggableView.m */; };
+		ECC021AE1CEBF3DA00340148 /* TearOffBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021A91CEBF3DA00340148 /* TearOffBehavior.m */; };
+		ECC021AF1CEBF3DA00340148 /* BoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021AB1CEBF3DA00340148 /* BoxViewController.m */; };
+		ECC021B31CEBF79F00340148 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021B21CEBF79F00340148 /* BallView.m */; };
+		ECC021B61CEBFCF100340148 /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021B51CEBFCF100340148 /* NewtonsCradleView.m */; };
+		ECC021B91CEC07ED00340148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021B81CEC07ED00340148 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC021881CEBF35C00340148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC021661CEBF35C00340148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC0216D1CEBF35C00340148;
+			remoteInfo = UIDynamic;
+		};
+		ECC021931CEBF35C00340148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC021661CEBF35C00340148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC0216D1CEBF35C00340148;
+			remoteInfo = UIDynamic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7EC3FA1CED3D5E00BC3668 /* DynamicAnimatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicAnimatorController.h; sourceTree = "<group>"; };
+		EC7EC3FB1CED3D5E00BC3668 /* DynamicAnimatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicAnimatorController.m; sourceTree = "<group>"; };
+		EC7EC3FE1CED470E00BC3668 /* DynamicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicListViewController.h; sourceTree = "<group>"; };
+		EC7EC3FF1CED470E00BC3668 /* DynamicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicListViewController.m; sourceTree = "<group>"; };
+		EC7EC4011CED4A4E00BC3668 /* GravityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityViewController.h; sourceTree = "<group>"; };
+		EC7EC4021CED4A4E00BC3668 /* GravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityViewController.m; sourceTree = "<group>"; };
+		EC7EC4091CEDB0A000BC3668 /* GravittyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravittyView.h; sourceTree = "<group>"; };
+		EC7EC40A1CEDB0A000BC3668 /* GravittyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravittyView.m; sourceTree = "<group>"; };
+		ECB70E001CEC250700E99615 /* NewtonsCradleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonsCradleViewController.h; sourceTree = "<group>"; };
+		ECB70E011CEC250700E99615 /* NewtonsCradleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonsCradleViewController.m; sourceTree = "<group>"; };
+		ECB70E031CEC326F00E99615 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		ECB70E061CEC35FD00E99615 /* CoreMotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMotionViewController.h; sourceTree = "<group>"; };
+		ECB70E071CEC35FD00E99615 /* CoreMotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMotionViewController.m; sourceTree = "<group>"; };
+		ECC0216E1CEBF35C00340148 /* UIDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDynamic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC021721CEBF35C00340148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC021741CEBF35C00340148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECC021751CEBF35C00340148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECC0217B1CEBF35C00340148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC0217D1CEBF35C00340148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC021801CEBF35C00340148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC021821CEBF35C00340148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC021871CEBF35C00340148 /* UIDynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDynamicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC0218B1CEBF35C00340148 /* UIDynamicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDynamicTests.m; sourceTree = "<group>"; };
+		ECC0218D1CEBF35C00340148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC021921CEBF35C00340148 /* UIDynamicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDynamicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC021961CEBF35C00340148 /* UIDynamicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDynamicUITests.m; sourceTree = "<group>"; };
+		ECC021981CEBF35C00340148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC021A41CEBF3DA00340148 /* DefaultBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultBehavior.h; sourceTree = "<group>"; };
+		ECC021A51CEBF3DA00340148 /* DefaultBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultBehavior.m; sourceTree = "<group>"; };
+		ECC021A61CEBF3DA00340148 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		ECC021A71CEBF3DA00340148 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		ECC021A81CEBF3DA00340148 /* TearOffBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TearOffBehavior.h; sourceTree = "<group>"; };
+		ECC021A91CEBF3DA00340148 /* TearOffBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TearOffBehavior.m; sourceTree = "<group>"; };
+		ECC021AA1CEBF3DA00340148 /* BoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxViewController.h; sourceTree = "<group>"; };
+		ECC021AB1CEBF3DA00340148 /* BoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxViewController.m; sourceTree = "<group>"; };
+		ECC021B11CEBF79F00340148 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		ECC021B21CEBF79F00340148 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		ECC021B41CEBFCF100340148 /* NewtonsCradleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonsCradleView.h; sourceTree = "<group>"; };
+		ECC021B51CEBFCF100340148 /* NewtonsCradleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonsCradleView.m; sourceTree = "<group>"; };
+		ECC021B71CEC07ED00340148 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECC021B81CEC07ED00340148 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC0216B1CEBF35C00340148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC021841CEBF35C00340148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC0218F1CEBF35C00340148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7EC3FD1CED3D6700BC3668 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				EC7EC4081CEDB03B00BC3668 /* gravity */,
+				EC7EC3FA1CED3D5E00BC3668 /* DynamicAnimatorController.h */,
+				EC7EC3FB1CED3D5E00BC3668 /* DynamicAnimatorController.m */,
+				EC7EC3FE1CED470E00BC3668 /* DynamicListViewController.h */,
+				EC7EC3FF1CED470E00BC3668 /* DynamicListViewController.m */,
+			);
+			name = Dynamic;
+			sourceTree = "<group>";
+		};
+		EC7EC4081CEDB03B00BC3668 /* gravity */ = {
+			isa = PBXGroup;
+			children = (
+				EC7EC4011CED4A4E00BC3668 /* GravityViewController.h */,
+				EC7EC4021CED4A4E00BC3668 /* GravityViewController.m */,
+				EC7EC4091CEDB0A000BC3668 /* GravittyView.h */,
+				EC7EC40A1CEDB0A000BC3668 /* GravittyView.m */,
+			);
+			name = gravity;
+			sourceTree = "<group>";
+		};
+		ECB70E051CEC35D000E99615 /* 陀螺仪 */ = {
+			isa = PBXGroup;
+			children = (
+				ECB70E061CEC35FD00E99615 /* CoreMotionViewController.h */,
+				ECB70E071CEC35FD00E99615 /* CoreMotionViewController.m */,
+			);
+			name = "陀螺仪";
+			sourceTree = "<group>";
+		};
+		ECC021651CEBF35C00340148 = {
+			isa = PBXGroup;
+			children = (
+				ECB70E031CEC326F00E99615 /* CoreMotion.framework */,
+				ECC021701CEBF35C00340148 /* UIDynamic */,
+				ECC0218A1CEBF35C00340148 /* UIDynamicTests */,
+				ECC021951CEBF35C00340148 /* UIDynamicUITests */,
+				ECC0216F1CEBF35C00340148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC0216F1CEBF35C00340148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0216E1CEBF35C00340148 /* UIDynamic.app */,
+				ECC021871CEBF35C00340148 /* UIDynamicTests.xctest */,
+				ECC021921CEBF35C00340148 /* UIDynamicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC021701CEBF35C00340148 /* UIDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				ECC021741CEBF35C00340148 /* AppDelegate.h */,
+				ECC021751CEBF35C00340148 /* AppDelegate.m */,
+				ECC0217A1CEBF35C00340148 /* Main.storyboard */,
+				ECC021A41CEBF3DA00340148 /* DefaultBehavior.h */,
+				ECC021A51CEBF3DA00340148 /* DefaultBehavior.m */,
+				ECC021A61CEBF3DA00340148 /* DraggableView.h */,
+				ECC021A71CEBF3DA00340148 /* DraggableView.m */,
+				ECC021A81CEBF3DA00340148 /* TearOffBehavior.h */,
+				ECC021A91CEBF3DA00340148 /* TearOffBehavior.m */,
+				ECC021AA1CEBF3DA00340148 /* BoxViewController.h */,
+				ECC021AB1CEBF3DA00340148 /* BoxViewController.m */,
+				ECC021B71CEC07ED00340148 /* ViewController.h */,
+				ECC021B81CEC07ED00340148 /* ViewController.m */,
+				EC7EC3FD1CED3D6700BC3668 /* Dynamic */,
+				ECB70E051CEC35D000E99615 /* 陀螺仪 */,
+				ECC021B01CEBF74800340148 /* 牛顿摆 */,
+				ECC0217D1CEBF35C00340148 /* Assets.xcassets */,
+				ECC0217F1CEBF35C00340148 /* LaunchScreen.storyboard */,
+				ECC021821CEBF35C00340148 /* Info.plist */,
+				ECC021711CEBF35C00340148 /* Supporting Files */,
+			);
+			path = UIDynamic;
+			sourceTree = "<group>";
+		};
+		ECC021711CEBF35C00340148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC021721CEBF35C00340148 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC0218A1CEBF35C00340148 /* UIDynamicTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0218B1CEBF35C00340148 /* UIDynamicTests.m */,
+				ECC0218D1CEBF35C00340148 /* Info.plist */,
+			);
+			path = UIDynamicTests;
+			sourceTree = "<group>";
+		};
+		ECC021951CEBF35C00340148 /* UIDynamicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC021961CEBF35C00340148 /* UIDynamicUITests.m */,
+				ECC021981CEBF35C00340148 /* Info.plist */,
+			);
+			path = UIDynamicUITests;
+			sourceTree = "<group>";
+		};
+		ECC021B01CEBF74800340148 /* 牛顿摆 */ = {
+			isa = PBXGroup;
+			children = (
+				ECC021B11CEBF79F00340148 /* BallView.h */,
+				ECC021B21CEBF79F00340148 /* BallView.m */,
+				ECC021B41CEBFCF100340148 /* NewtonsCradleView.h */,
+				ECC021B51CEBFCF100340148 /* NewtonsCradleView.m */,
+				ECB70E001CEC250700E99615 /* NewtonsCradleViewController.h */,
+				ECB70E011CEC250700E99615 /* NewtonsCradleViewController.m */,
+			);
+			name = "牛顿摆";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC0216D1CEBF35C00340148 /* UIDynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC0219B1CEBF35C00340148 /* Build configuration list for PBXNativeTarget "UIDynamic" */;
+			buildPhases = (
+				ECC0216A1CEBF35C00340148 /* Sources */,
+				ECC0216B1CEBF35C00340148 /* Frameworks */,
+				ECC0216C1CEBF35C00340148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIDynamic;
+			productName = UIDynamic;
+			productReference = ECC0216E1CEBF35C00340148 /* UIDynamic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC021861CEBF35C00340148 /* UIDynamicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC0219E1CEBF35C00340148 /* Build configuration list for PBXNativeTarget "UIDynamicTests" */;
+			buildPhases = (
+				ECC021831CEBF35C00340148 /* Sources */,
+				ECC021841CEBF35C00340148 /* Frameworks */,
+				ECC021851CEBF35C00340148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC021891CEBF35C00340148 /* PBXTargetDependency */,
+			);
+			name = UIDynamicTests;
+			productName = UIDynamicTests;
+			productReference = ECC021871CEBF35C00340148 /* UIDynamicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC021911CEBF35C00340148 /* UIDynamicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC021A11CEBF35C00340148 /* Build configuration list for PBXNativeTarget "UIDynamicUITests" */;
+			buildPhases = (
+				ECC0218E1CEBF35C00340148 /* Sources */,
+				ECC0218F1CEBF35C00340148 /* Frameworks */,
+				ECC021901CEBF35C00340148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC021941CEBF35C00340148 /* PBXTargetDependency */,
+			);
+			name = UIDynamicUITests;
+			productName = UIDynamicUITests;
+			productReference = ECC021921CEBF35C00340148 /* UIDynamicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC021661CEBF35C00340148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xintong;
+				TargetAttributes = {
+					ECC0216D1CEBF35C00340148 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KZ2AE2A82P;
+					};
+					ECC021861CEBF35C00340148 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ECC0216D1CEBF35C00340148;
+					};
+					ECC021911CEBF35C00340148 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ECC0216D1CEBF35C00340148;
+					};
+				};
+			};
+			buildConfigurationList = ECC021691CEBF35C00340148 /* Build configuration list for PBXProject "UIDynamic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC021651CEBF35C00340148;
+			productRefGroup = ECC0216F1CEBF35C00340148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC0216D1CEBF35C00340148 /* UIDynamic */,
+				ECC021861CEBF35C00340148 /* UIDynamicTests */,
+				ECC021911CEBF35C00340148 /* UIDynamicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC0216C1CEBF35C00340148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC021811CEBF35C00340148 /* LaunchScreen.storyboard in Resources */,
+				ECC0217E1CEBF35C00340148 /* Assets.xcassets in Resources */,
+				ECC0217C1CEBF35C00340148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC021851CEBF35C00340148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC021901CEBF35C00340148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC0216A1CEBF35C00340148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB70E081CEC35FD00E99615 /* CoreMotionViewController.m in Sources */,
+				EC7EC40B1CEDB0A000BC3668 /* GravittyView.m in Sources */,
+				ECC021B91CEC07ED00340148 /* ViewController.m in Sources */,
+				ECC021AF1CEBF3DA00340148 /* BoxViewController.m in Sources */,
+				ECB70E021CEC250700E99615 /* NewtonsCradleViewController.m in Sources */,
+				ECC021AC1CEBF3DA00340148 /* DefaultBehavior.m in Sources */,
+				ECC021B61CEBFCF100340148 /* NewtonsCradleView.m in Sources */,
+				ECC021B31CEBF79F00340148 /* BallView.m in Sources */,
+				ECC021761CEBF35C00340148 /* AppDelegate.m in Sources */,
+				EC7EC3FC1CED3D5E00BC3668 /* DynamicAnimatorController.m in Sources */,
+				EC7EC4031CED4A4E00BC3668 /* GravityViewController.m in Sources */,
+				ECC021AE1CEBF3DA00340148 /* TearOffBehavior.m in Sources */,
+				ECC021AD1CEBF3DA00340148 /* DraggableView.m in Sources */,
+				ECC021731CEBF35C00340148 /* main.m in Sources */,
+				EC7EC4001CED470E00BC3668 /* DynamicListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC021831CEBF35C00340148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC0218C1CEBF35C00340148 /* UIDynamicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC0218E1CEBF35C00340148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC021971CEBF35C00340148 /* UIDynamicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC021891CEBF35C00340148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC0216D1CEBF35C00340148 /* UIDynamic */;
+			targetProxy = ECC021881CEBF35C00340148 /* PBXContainerItemProxy */;
+		};
+		ECC021941CEBF35C00340148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC0216D1CEBF35C00340148 /* UIDynamic */;
+			targetProxy = ECC021931CEBF35C00340148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC0217A1CEBF35C00340148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC0217B1CEBF35C00340148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC0217F1CEBF35C00340148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC021801CEBF35C00340148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC021991CEBF35C00340148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC0219A1CEBF35C00340148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC0219C1CEBF35C00340148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UIDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.UIDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		ECC0219D1CEBF35C00340148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UIDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.UIDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		ECC0219F1CEBF35C00340148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.UIDynamicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIDynamic.app/UIDynamic";
+			};
+			name = Debug;
+		};
+		ECC021A01CEBF35C00340148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.UIDynamicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIDynamic.app/UIDynamic";
+			};
+			name = Release;
+		};
+		ECC021A21CEBF35C00340148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIDynamicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.UIDynamicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIDynamic;
+			};
+			name = Debug;
+		};
+		ECC021A31CEBF35C00340148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIDynamicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.UIDynamicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIDynamic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC021691CEBF35C00340148 /* Build configuration list for PBXProject "UIDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC021991CEBF35C00340148 /* Debug */,
+				ECC0219A1CEBF35C00340148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC0219B1CEBF35C00340148 /* Build configuration list for PBXNativeTarget "UIDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC0219C1CEBF35C00340148 /* Debug */,
+				ECC0219D1CEBF35C00340148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC0219E1CEBF35C00340148 /* Build configuration list for PBXNativeTarget "UIDynamicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC0219F1CEBF35C00340148 /* Debug */,
+				ECC021A01CEBF35C00340148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC021A11CEBF35C00340148 /* Build configuration list for PBXNativeTarget "UIDynamicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC021A21CEBF35C00340148 /* Debug */,
+				ECC021A31CEBF35C00340148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC021661CEBF35C00340148 /* Project object */;
+}
