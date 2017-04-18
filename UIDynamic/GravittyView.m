@@ -8,7 +8,23 @@
 
 #import "GravittyView.h"
 
+@interface GravittyView ()
+
+@property (nonatomic, strong) UIDynamicAnimator *dynamicAnimator;
+
+@end
+
 @implementation GravittyView
+
+- (instancetype)initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+        self.dynamicAnimator = [[UIDynamicAnimator alloc] initWithReferenceView:self];
+        
+    }
+    return self;
+}
 
 - (void)drawRect:(CGRect)rect{
     [super drawRect:rect];

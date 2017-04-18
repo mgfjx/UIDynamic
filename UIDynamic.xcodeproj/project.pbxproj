@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC7EC3FC1CED3D5E00BC3668 /* DynamicAnimatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC3FB1CED3D5E00BC3668 /* DynamicAnimatorController.m */; };
+		EC7EC3FC1CED3D5E00BC3668 /* PushAnimatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC3FB1CED3D5E00BC3668 /* PushAnimatorController.m */; };
 		EC7EC4001CED470E00BC3668 /* DynamicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC3FF1CED470E00BC3668 /* DynamicListViewController.m */; };
 		EC7EC4031CED4A4E00BC3668 /* GravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC4021CED4A4E00BC3668 /* GravityViewController.m */; };
 		EC7EC40B1CEDB0A000BC3668 /* GravittyView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7EC40A1CEDB0A000BC3668 /* GravittyView.m */; };
+		EC9C858A1EA485A3009E086A /* ArchiveObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C857D1EA485A3009E086A /* ArchiveObj.m */; };
+		EC9C858B1EA485A3009E086A /* Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C857F1EA485A3009E086A /* Encrypt.m */; };
+		EC9C858C1EA485A3009E086A /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C85811EA485A3009E086A /* TransitionManager.m */; };
+		EC9C858D1EA485A3009E086A /* UIAlertView+ActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C85831EA485A3009E086A /* UIAlertView+ActionBlock.m */; };
+		EC9C858E1EA485A3009E086A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C85851EA485A3009E086A /* UIColor+Hex.m */; };
+		EC9C858F1EA485A3009E086A /* UIImageView+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C85871EA485A3009E086A /* UIImageView+Scale.m */; };
+		EC9C85901EA485A3009E086A /* UIView+AddFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C85891EA485A3009E086A /* UIView+AddFunc.m */; };
+		EC9C85951EA49237009E086A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C85941EA49237009E086A /* BaseViewController.m */; };
+		EC9C85981EA49248009E086A /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C85971EA49248009E086A /* SnapViewController.m */; };
+		EC9C859C1EA49742009E086A /* AttachmentBehaviorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C859B1EA49742009E086A /* AttachmentBehaviorController.m */; };
+		EC9C85A21EA4BC42009E086A /* FieldBehaviorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C85A11EA4BC42009E086A /* FieldBehaviorController.m */; };
 		ECB70E021CEC250700E99615 /* NewtonsCradleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB70E011CEC250700E99615 /* NewtonsCradleViewController.m */; };
 		ECB70E081CEC35FD00E99615 /* CoreMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB70E071CEC35FD00E99615 /* CoreMotionViewController.m */; };
 		ECC021731CEBF35C00340148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC021721CEBF35C00340148 /* main.m */; };
@@ -47,14 +58,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC7EC3FA1CED3D5E00BC3668 /* DynamicAnimatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicAnimatorController.h; sourceTree = "<group>"; };
-		EC7EC3FB1CED3D5E00BC3668 /* DynamicAnimatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicAnimatorController.m; sourceTree = "<group>"; };
+		EC7EC3FA1CED3D5E00BC3668 /* PushAnimatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimatorController.h; sourceTree = "<group>"; };
+		EC7EC3FB1CED3D5E00BC3668 /* PushAnimatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimatorController.m; sourceTree = "<group>"; };
 		EC7EC3FE1CED470E00BC3668 /* DynamicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicListViewController.h; sourceTree = "<group>"; };
 		EC7EC3FF1CED470E00BC3668 /* DynamicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicListViewController.m; sourceTree = "<group>"; };
 		EC7EC4011CED4A4E00BC3668 /* GravityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityViewController.h; sourceTree = "<group>"; };
 		EC7EC4021CED4A4E00BC3668 /* GravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityViewController.m; sourceTree = "<group>"; };
 		EC7EC4091CEDB0A000BC3668 /* GravittyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravittyView.h; sourceTree = "<group>"; };
 		EC7EC40A1CEDB0A000BC3668 /* GravittyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravittyView.m; sourceTree = "<group>"; };
+		EC9C857C1EA485A3009E086A /* ArchiveObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveObj.h; sourceTree = "<group>"; };
+		EC9C857D1EA485A3009E086A /* ArchiveObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveObj.m; sourceTree = "<group>"; };
+		EC9C857E1EA485A3009E086A /* Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypt.h; sourceTree = "<group>"; };
+		EC9C857F1EA485A3009E086A /* Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encrypt.m; sourceTree = "<group>"; };
+		EC9C85801EA485A3009E086A /* TransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionManager.h; sourceTree = "<group>"; };
+		EC9C85811EA485A3009E086A /* TransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionManager.m; sourceTree = "<group>"; };
+		EC9C85821EA485A3009E086A /* UIAlertView+ActionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ActionBlock.h"; sourceTree = "<group>"; };
+		EC9C85831EA485A3009E086A /* UIAlertView+ActionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ActionBlock.m"; sourceTree = "<group>"; };
+		EC9C85841EA485A3009E086A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		EC9C85851EA485A3009E086A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		EC9C85861EA485A3009E086A /* UIImageView+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Scale.h"; sourceTree = "<group>"; };
+		EC9C85871EA485A3009E086A /* UIImageView+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Scale.m"; sourceTree = "<group>"; };
+		EC9C85881EA485A3009E086A /* UIView+AddFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddFunc.h"; sourceTree = "<group>"; };
+		EC9C85891EA485A3009E086A /* UIView+AddFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddFunc.m"; sourceTree = "<group>"; };
+		EC9C85911EA485E3009E086A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EC9C85931EA49237009E086A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EC9C85941EA49237009E086A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EC9C85961EA49248009E086A /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
+		EC9C85971EA49248009E086A /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
+		EC9C859A1EA49742009E086A /* AttachmentBehaviorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentBehaviorController.h; sourceTree = "<group>"; };
+		EC9C859B1EA49742009E086A /* AttachmentBehaviorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentBehaviorController.m; sourceTree = "<group>"; };
+		EC9C85A01EA4BC42009E086A /* FieldBehaviorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldBehaviorController.h; sourceTree = "<group>"; };
+		EC9C85A11EA4BC42009E086A /* FieldBehaviorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldBehaviorController.m; sourceTree = "<group>"; };
 		ECB70E001CEC250700E99615 /* NewtonsCradleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonsCradleViewController.h; sourceTree = "<group>"; };
 		ECB70E011CEC250700E99615 /* NewtonsCradleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonsCradleViewController.m; sourceTree = "<group>"; };
 		ECB70E031CEC326F00E99615 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -118,16 +152,18 @@
 		EC7EC3FD1CED3D6700BC3668 /* Dynamic */ = {
 			isa = PBXGroup;
 			children = (
-				EC7EC4081CEDB03B00BC3668 /* gravity */,
-				EC7EC3FA1CED3D5E00BC3668 /* DynamicAnimatorController.h */,
-				EC7EC3FB1CED3D5E00BC3668 /* DynamicAnimatorController.m */,
+				EC9C859F1EA4BC25009E086A /* FieldBehavior */,
+				EC9C859D1EA49747009E086A /* Attachment */,
+				EC9C85991EA49546009E086A /* Push */,
+				EC9C85921EA48D96009E086A /* Snap */,
+				EC7EC4081CEDB03B00BC3668 /* Gravity */,
 				EC7EC3FE1CED470E00BC3668 /* DynamicListViewController.h */,
 				EC7EC3FF1CED470E00BC3668 /* DynamicListViewController.m */,
 			);
 			name = Dynamic;
 			sourceTree = "<group>";
 		};
-		EC7EC4081CEDB03B00BC3668 /* gravity */ = {
+		EC7EC4081CEDB03B00BC3668 /* Gravity */ = {
 			isa = PBXGroup;
 			children = (
 				EC7EC4011CED4A4E00BC3668 /* GravityViewController.h */,
@@ -135,7 +171,64 @@
 				EC7EC4091CEDB0A000BC3668 /* GravittyView.h */,
 				EC7EC40A1CEDB0A000BC3668 /* GravittyView.m */,
 			);
-			name = gravity;
+			name = Gravity;
+			sourceTree = "<group>";
+		};
+		EC9C857B1EA485A3009E086A /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C857C1EA485A3009E086A /* ArchiveObj.h */,
+				EC9C857D1EA485A3009E086A /* ArchiveObj.m */,
+				EC9C857E1EA485A3009E086A /* Encrypt.h */,
+				EC9C857F1EA485A3009E086A /* Encrypt.m */,
+				EC9C85801EA485A3009E086A /* TransitionManager.h */,
+				EC9C85811EA485A3009E086A /* TransitionManager.m */,
+				EC9C85821EA485A3009E086A /* UIAlertView+ActionBlock.h */,
+				EC9C85831EA485A3009E086A /* UIAlertView+ActionBlock.m */,
+				EC9C85841EA485A3009E086A /* UIColor+Hex.h */,
+				EC9C85851EA485A3009E086A /* UIColor+Hex.m */,
+				EC9C85861EA485A3009E086A /* UIImageView+Scale.h */,
+				EC9C85871EA485A3009E086A /* UIImageView+Scale.m */,
+				EC9C85881EA485A3009E086A /* UIView+AddFunc.h */,
+				EC9C85891EA485A3009E086A /* UIView+AddFunc.m */,
+			);
+			path = Unity;
+			sourceTree = "<group>";
+		};
+		EC9C85921EA48D96009E086A /* Snap */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C85961EA49248009E086A /* SnapViewController.h */,
+				EC9C85971EA49248009E086A /* SnapViewController.m */,
+			);
+			name = Snap;
+			sourceTree = "<group>";
+		};
+		EC9C85991EA49546009E086A /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				EC7EC3FA1CED3D5E00BC3668 /* PushAnimatorController.h */,
+				EC7EC3FB1CED3D5E00BC3668 /* PushAnimatorController.m */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		EC9C859D1EA49747009E086A /* Attachment */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C859A1EA49742009E086A /* AttachmentBehaviorController.h */,
+				EC9C859B1EA49742009E086A /* AttachmentBehaviorController.m */,
+			);
+			name = Attachment;
+			sourceTree = "<group>";
+		};
+		EC9C859F1EA4BC25009E086A /* FieldBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C85A01EA4BC42009E086A /* FieldBehaviorController.h */,
+				EC9C85A11EA4BC42009E086A /* FieldBehaviorController.m */,
+			);
+			name = FieldBehavior;
 			sourceTree = "<group>";
 		};
 		ECB70E051CEC35D000E99615 /* 陀螺仪 */ = {
@@ -150,7 +243,9 @@
 		ECC021651CEBF35C00340148 = {
 			isa = PBXGroup;
 			children = (
+				EC9C85911EA485E3009E086A /* PrefixHeader.pch */,
 				ECB70E031CEC326F00E99615 /* CoreMotion.framework */,
+				EC9C857B1EA485A3009E086A /* Unity */,
 				ECC021701CEBF35C00340148 /* UIDynamic */,
 				ECC0218A1CEBF35C00340148 /* UIDynamicTests */,
 				ECC021951CEBF35C00340148 /* UIDynamicUITests */,
@@ -184,6 +279,8 @@
 				ECC021AB1CEBF3DA00340148 /* BoxViewController.m */,
 				ECC021B71CEC07ED00340148 /* ViewController.h */,
 				ECC021B81CEC07ED00340148 /* ViewController.m */,
+				EC9C85931EA49237009E086A /* BaseViewController.h */,
+				EC9C85941EA49237009E086A /* BaseViewController.m */,
 				EC7EC3FD1CED3D6700BC3668 /* Dynamic */,
 				ECB70E051CEC35D000E99615 /* 陀螺仪 */,
 				ECC021B01CEBF74800340148 /* 牛顿摆 */,
@@ -301,7 +398,7 @@
 				TargetAttributes = {
 					ECC0216D1CEBF35C00340148 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = KZ2AE2A82P;
+						DevelopmentTeam = 4H95452AGN;
 					};
 					ECC021861CEBF35C00340148 = {
 						CreatedOnToolsVersion = 7.3;
@@ -366,20 +463,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB70E081CEC35FD00E99615 /* CoreMotionViewController.m in Sources */,
+				EC9C858E1EA485A3009E086A /* UIColor+Hex.m in Sources */,
 				EC7EC40B1CEDB0A000BC3668 /* GravittyView.m in Sources */,
 				ECC021B91CEC07ED00340148 /* ViewController.m in Sources */,
 				ECC021AF1CEBF3DA00340148 /* BoxViewController.m in Sources */,
+				EC9C858A1EA485A3009E086A /* ArchiveObj.m in Sources */,
 				ECB70E021CEC250700E99615 /* NewtonsCradleViewController.m in Sources */,
+				EC9C858D1EA485A3009E086A /* UIAlertView+ActionBlock.m in Sources */,
+				EC9C85A21EA4BC42009E086A /* FieldBehaviorController.m in Sources */,
 				ECC021AC1CEBF3DA00340148 /* DefaultBehavior.m in Sources */,
 				ECC021B61CEBFCF100340148 /* NewtonsCradleView.m in Sources */,
 				ECC021B31CEBF79F00340148 /* BallView.m in Sources */,
 				ECC021761CEBF35C00340148 /* AppDelegate.m in Sources */,
-				EC7EC3FC1CED3D5E00BC3668 /* DynamicAnimatorController.m in Sources */,
+				EC9C858C1EA485A3009E086A /* TransitionManager.m in Sources */,
+				EC7EC3FC1CED3D5E00BC3668 /* PushAnimatorController.m in Sources */,
 				EC7EC4031CED4A4E00BC3668 /* GravityViewController.m in Sources */,
+				EC9C858B1EA485A3009E086A /* Encrypt.m in Sources */,
+				EC9C85981EA49248009E086A /* SnapViewController.m in Sources */,
 				ECC021AE1CEBF3DA00340148 /* TearOffBehavior.m in Sources */,
+				EC9C859C1EA49742009E086A /* AttachmentBehaviorController.m in Sources */,
 				ECC021AD1CEBF3DA00340148 /* DraggableView.m in Sources */,
+				EC9C85901EA485A3009E086A /* UIView+AddFunc.m in Sources */,
 				ECC021731CEBF35C00340148 /* main.m in Sources */,
 				EC7EC4001CED470E00BC3668 /* DynamicListViewController.m in Sources */,
+				EC9C858F1EA485A3009E086A /* UIImageView+Scale.m in Sources */,
+				EC9C85951EA49237009E086A /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +632,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4H95452AGN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = UIDynamic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.UIDynamic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,7 +650,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4H95452AGN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = UIDynamic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.UIDynamic;
 				PRODUCT_NAME = "$(TARGET_NAME)";

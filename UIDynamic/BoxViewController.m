@@ -40,15 +40,14 @@ const NSUInteger kSliceCount = 6;
     self.view.backgroundColor = [UIColor whiteColor];
     self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
 
-    CGRect frame = CGRectMake(0, 64,
+    CGRect frame = CGRectMake(10, 64 + 20,
                             kShapeDimension,
                             kShapeDimension);
     DraggableView *dragView = [[DraggableView alloc] initWithFrame:frame
                                                         animator:self.animator];
 //    dragView.layer.cornerRadius = kShapeDimension/2;
 //    dragView.layer.masksToBounds = YES;
-    dragView.center = CGPointMake(self.view.center.x / 4,
-                                self.view.center.y / 4);
+    dragView.center = CGPointMake(self.view.center.x,dragView.center.y);
     dragView.alpha = 0.5;
     [self.view addSubview:dragView];
 

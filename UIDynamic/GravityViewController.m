@@ -33,24 +33,23 @@
     
     [self.view addSubview:btn];
     
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    view.backgroundColor = [UIColor grayColor];
-    self.itemView = view;
-    view.transform = CGAffineTransformMakeRotation(78);
-    [self.view addSubview:view];
-    
     self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
     
 }
 
 - (void)clicked:(UIButton *)sender{
     
-    UICollisionBehavior *collision = [[UICollisionBehavior alloc] initWithItems:@[self.itemView]];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 40, 40)];
+    view.backgroundColor = [UIColor grayColor];
+    view.transform = CGAffineTransformMakeRotation(rand()%90);
+    [self.view addSubview:view];
+    
+    UICollisionBehavior *collision = [[UICollisionBehavior alloc] initWithItems:@[view]];
     collision.translatesReferenceBoundsIntoBoundary = YES;
     collision.collisionDelegate = self;
     
-    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(20, 600, 150, 20) cornerRadius:10];
-    [collision addBoundaryWithIdentifier:@"p1" forPath:path];
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(100, self.view.height - 80, 40, 20) cornerRadius:10];
+//    [collision addBoundaryWithIdentifier:@"p1" forPath:path];
     
     GravittyView *gView = (GravittyView *)self.view;
     gView.path = path;
@@ -58,14 +57,15 @@
     
     [self.animator addBehavior:collision];
     
-    UIGravityBehavior *gravity = [[UIGravityBehavior alloc] initWithItems:@[self.itemView]];
+    UIGravityBehavior *gravity = [[UIGravityBehavior alloc] initWithItems:@[view]];
     gravity.magnitude = 1;
     [self.animator addBehavior:gravity];
     
 }
 
 - (void)collisionBehavior:(UICollisionBehavior *)behavior beganContactForItem:(nonnull id<UIDynamicItem>)item withBoundaryIdentifier:(nullable id<NSCopying>)identifier atPoint:(CGPoint)p{
-    self.itemView.backgroundColor = [UIColor redColor];
+    UIView *targetItem = (UIView *)item;
+    targetItem.backgroundColor = [UIColor redColor];
 }
 
 @end

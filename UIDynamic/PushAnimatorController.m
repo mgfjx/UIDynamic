@@ -6,9 +6,9 @@
 //  Copyright © 2016年 xintong. All rights reserved.
 //
 
-#import "DynamicAnimatorController.h"
+#import "PushAnimatorController.h"
 
-@interface DynamicAnimatorController ()
+@interface PushAnimatorController ()
 
 @property (nonatomic, strong) UIDynamicAnimator *defaultAnimator;
 @property (nonatomic, strong) UIPushBehavior *pushBehavior;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation DynamicAnimatorController
+@implementation PushAnimatorController
 
 - (void)viewDidLoad{
     [super viewDidLoad];
@@ -43,6 +43,7 @@
 - (void)clickedRightBarBtn:(id)sender{
     
     UIPushBehavior *push = [[UIPushBehavior alloc] initWithItems:@[self.itemView] mode:UIPushBehaviorModeContinuous];
+//    push.pushDirection = CGVectorMake(100, 100);
     [self.defaultAnimator addBehavior:push];
     
 }
@@ -60,7 +61,7 @@
     CGFloat deltaX = tapPoint.x - squareViewCenterPoint.x;
     CGFloat deltaY = tapPoint.y - squareViewCenterPoint.y;
     CGFloat angle = atan2(deltaY, deltaX);
-    [self.pushBehavior setAngle:angle];  //推移的角度
+    [self.pushBehavior setAngle:angle + M_PI];  //推移的角度
     
     //勾股
     CGFloat distanceBetweenPoints =
@@ -69,12 +70,12 @@
     //double pow(double x, double y）;计算以x为底数的y次幂
     //double sqrt (double);开平方
     
-    [self.pushBehavior setMagnitude:distanceBetweenPoints / 200.0f]; //推力的大小（移动速度）
+    [self.pushBehavior setMagnitude:distanceBetweenPoints / 100.0f]; //推力的大小（移动速度）
     //每1个magnigude将会引起100/平方秒的加速度，这里分母越大，速度越小
     
 }
 - (void) createSmallSquareView{
-    self.itemView =[[UIView alloc] initWithFrame: CGRectMake(0.0f, 0.0f, 80.0f, 80.0f)];
+    self.itemView =[[UIView alloc] initWithFrame: CGRectMake(0.0f, 0.0f, 40.0f, 40.0f)];
     
     self.itemView.backgroundColor = [UIColor greenColor];
     self.itemView.center = self.view.center;

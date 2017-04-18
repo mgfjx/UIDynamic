@@ -9,7 +9,9 @@
 #import "DynamicListViewController.h"
 #import "GravityViewController.h"
 
-@interface DynamicListViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface DynamicListViewController ()<UITableViewDelegate,UITableViewDataSource>{
+    NSDictionary *titleAndController;
+}
 
 @property (nonatomic, strong) UITableView *table;
 
@@ -19,6 +21,13 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
+    
+    titleAndController = @{@"重力":@"GravityViewController",
+                           @"推力":@"PushAnimatorController",
+                           @"吸附":@"AttachmentBehaviorController",
+                           @"捕捉":@"SnapViewController",
+                           @"FieldBehavior":@"FieldBehaviorController",
+                           };
     
     UITableView *table = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     table.delegate = self;
@@ -35,7 +44,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 20;
+    return titleAndController.allKeys.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -48,17 +57,7 @@
     }
     
     NSInteger indexRow = indexPath.row;
-    NSString *title = nil;
-    if (indexRow == 0) {
-        title = @"重力";
-    }else if(indexRow == 1){
-        title = @"推力";
-    }else if (indexRow == 2){
-        title = @"吸附";
-    }else if (indexRow == 3){
-        title = @"碰撞";
-    }
-    
+    NSString *title = titleAndController.allKeys[indexRow];
     cell.textLabel.text = title;
     
     return cell;
@@ -67,12 +66,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     NSInteger indexRow = indexPath.row;
-    
-    if (indexRow == 0) {
-        GravityViewController *vc = [[GravityViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
+    NSString *vcName = titleAndController.allValues[indexRow];
+    [self pushViewController:vcName];
+}
 
+- (void)pushViewController:(NSString *)controllerName{
+    UIViewController *vc = [[NSClassFromString(controllerName) alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 -(void)viewDidLayoutSubviews {

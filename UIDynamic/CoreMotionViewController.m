@@ -33,11 +33,12 @@
     
     BOOL isAvailable = self.motionManager.isGyroAvailable;
     
+    /*
     if (isAvailable) {
         NSLog(@"CMMotionManager is GyroAvailable");
         
         if (self.motionManager.isGyroActive == NO) {
-            [self.motionManager setGyroUpdateInterval:0];
+            [self.motionManager setGyroUpdateInterval:1/60.0];
             
             NSOperationQueue *queue = [[NSOperationQueue alloc] init];
             [self.motionManager startGyroUpdatesToQueue:queue withHandler:^(CMGyroData * _Nullable gyroData, NSError * _Nullable error) {
@@ -47,8 +48,12 @@
 //                NSLog(@"Gyro Rotation z = %.04f", gyroData.rotationRate.z);
                 
                 dispatch_async(dispatch_get_main_queue(), ^{
-                
-                    ball.center = CGPointMake(self.view.bounds.size.width/2 - gyroData.rotationRate.x * 100, self.view.bounds.size.height/2 - gyroData.rotationRate.y*100);
+                    
+                    CGFloat multiple = 50;
+                    CGFloat changeX = gyroData.rotationRate.x * multiple;
+                    CGFloat changeY = gyroData.rotationRate.y*multiple;
+                    NSLog(@"changX = %f, changeY = %f", changeX, changeY);
+                    ball.center = CGPointMake(self.view.bounds.size.width/2 - changeX, self.view.bounds.size.height/2 - changeY);
                     
                 });
                 
@@ -57,16 +62,26 @@
         }
         
     }
+     */
     
     if ([self.motionManager isAccelerometerAvailable]){
         NSLog(@"Accelerometer is available.");
-        
+        [self.motionManager setGyroUpdateInterval:1/24.0];
+     
         NSOperationQueue *queue = [[NSOperationQueue alloc] init];
         
         [self.motionManager startAccelerometerUpdatesToQueue:queue withHandler:^(CMAccelerometerData*accelerometerData, NSError *error) {
                                                      
-             NSLog(@"X = %.04f, Y = %.04f, Z = %.04f",accelerometerData.acceleration.x, accelerometerData.acceleration.y, accelerometerData.acceleration.z);
+            dispatch_async(dispatch_get_main_queue(), ^{
                 
+                CGFloat multiple = 1000;
+                CGFloat changeX = accelerometerData.acceleration.x * multiple;
+                CGFloat changeY = accelerometerData.acceleration.y * multiple;
+                NSLog(@"changX = %f, changeY = %f", changeX, changeY);
+                ball.center = CGPointMake(self.view.bounds.size.width/2 + changeX, self.view.bounds.size.height/2 - changeY);
+                
+            });
+            
         }];
         
         

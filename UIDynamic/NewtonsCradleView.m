@@ -172,7 +172,7 @@
     
     itemBehavior.elasticity = 1.0;
     itemBehavior.allowsRotation = YES;
-    itemBehavior.resistance = 1.f;
+    itemBehavior.resistance = 0.5;
     return itemBehavior;
 }
 

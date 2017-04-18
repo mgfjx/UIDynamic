@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  UIDynamic
+//
+//  Created by mgfjx on 2017/4/17.
+//  Copyright © 2017年 xintong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+AddFunc.h"
+#import "UIColor+Hex.h"
+
+#endif /* PrefixHeader_pch */
